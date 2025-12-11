@@ -34,7 +34,7 @@ body {
 .content h1 {
     margin-top: -20px;
     font-family: 'Dancing Script', cursive; /* 👉 Police appliquée au titre */
-    font-size: 2rem;
+    font-size: 5rem;
     transform: translateY(-20px);
 }
 

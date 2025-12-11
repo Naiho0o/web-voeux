@@ -8,10 +8,18 @@
 }
 
 html {
-    background-image: url("so-white.png");
-    background-repeat: repeat;      /* Ou "no-repeat" selon la texture */
-    background-size: auto;          /* Ou "cover" si tu veux l’étirer */
-    background-attachment: fixed;   /* Optionnel : effet fixe quand on scroll */
+    position: relative;
+}
+
+html::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("assets/texture.png");
+    background-repeat: repeat;
+    background-size: auto;
+    opacity: 1; /* Mets 0.8, 1, 1.2, etc (oui >1 fonctionne si tu combines avec mix-blend-mode) */
+    z-index: -1;
 }
 
 body {

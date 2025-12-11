@@ -11,38 +11,29 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.image-container h1 {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-family: 'Dancing Script', cursive;
-    font-size: 3rem;
-
-    color: red; /* pour tester, change après */
-    z-index: 10; /* <<< ceci le met devant l’image */
-    text-shadow: 2px 2px 4px black; /* rend lisible */
+.image-container {
+    width: 100%;
+    height: 50vh; /* Ajuste la hauteur pour mieux contrôler */
+    overflow: hidden;
+    position: relative;
 }
-
 
 .image {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: -25%;
+    object-fit: cover; /* Pour que l'image garde ses proportions sans déformation */
 }
 
 h1 {
     font-family: 'Dancing Script', cursive;
-    color: rgb(255, 0, 0); /* Rouge vif pour tester */
+    font-size: 3rem;
+    color: red; /* Change cette couleur comme tu veux */
     text-align: center;
-    position: absolute;
-    left: 50%;
-    top: 20px; /* Ajout pour qu'il ne soit pas derrière l'image */
-    transform: translateX(-50%);
-    font-size: 3rem; /* plus visible */
+    margin-top: 20px; /* Marge au-dessus pour le séparer de l'image */
+    z-index: 10;
+    text-shadow: 2px 2px 4px black; /* Lisibilité */
 }
+
 
 
 .content {

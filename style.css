@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 50vh; /* Cela permet de faire en sorte que l'image prenne la moitié de l'écran */
+    overflow: hidden; /* Pour cacher la partie de l'image en dessous du milieu */
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Pour couvrir toute la zone sans distorsion */
+    position: absolute;
+    top: -25%; /* Décale l'image vers le haut pour couper la partie du bas */
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.content h1 {
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}

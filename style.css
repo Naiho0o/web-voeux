@@ -15,9 +15,6 @@ html::before {
     content: "";
     position: fixed;
     inset: 0;
-    background-image: url("so-white.png");
-    background-repeat: repeat;
-    background-size: auto;
     opacity: 0.9;
     mix-blend-mode: multiply; /* rend le papier mieux */
     z-index: -1;
@@ -30,27 +27,31 @@ body {
 }
 
 .image-container {
-    position: relative;
+    position: fixed;
     width: 100%;
-    height: 50lvh; /* Cela permet de faire en sorte que l'image prenne la moitié de l'écran */
+    height: 100lvh; /* Cela permet de faire en sorte que l'image prenne la moitié de l'écran */
     overflow: hidden; /* Pour cacher la partie de l'image en dessous du milieu */
+    top: 0;
+    z-index: -1;
 }
 
 .image {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Pour couvrir toute la zone sans distorsion */
+    object-fit: cover;
     position: absolute;
-    top: -25%; /* Décale l'image vers le haut pour couper la partie du bas */
 }
 
 .content {
-    padding: 40px;
+    background-image: url("so-white.png");
+    background-repeat: repeat;
+    background-size: auto;
+    padding: 2rem;
     text-align: center;
-    background: transparent;
-    border-radius: 20px;
-    width: 80%;
-    margin: 20px auto;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 600px;
+    margin: 5lvh auto;
 }
 
 .content h1 {

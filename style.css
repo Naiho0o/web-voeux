@@ -36,3 +36,16 @@ body {
     font-size: 1.2em;
     line-height: 1.5;
 }
+
+.title {
+    position: absolute;
+    top: 30%; 
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Great Vibes', cursive;
+    font-size: 4.5em;
+    color: #fff;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6), 0 0 25px rgba(255, 255, 255, 0.8); /* Ombre et brillance lumineuse */
+    text-align: center;
+    animation: shimmer 2s infinite; /* Animation de brillance */
+}

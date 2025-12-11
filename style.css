@@ -11,25 +11,33 @@ body {
 .image-container {
     position: relative;
     width: 100%;
-    height: 50vh; /* Cela permet de faire en sorte que l'image prenne la moitié de l'écran */
-    overflow: hidden; /* Pour cacher la partie de l'image en dessous du milieu */
+    height: 50vh;
+    overflow: hidden;
 }
 
 .image {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Pour couvrir toute la zone sans distorsion */
+    object-fit: cover;
     position: absolute;
-    top: -25%; /* Décale l'image vers le haut pour couper la partie du bas */
+    top: -25%;
+}
+
+.title {
+    position: absolute;
+    top: 30%; /* Ajuster selon le placement souhaité du titre */
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Great Vibes', cursive; /* Police festive */
+    font-size: 4em; /* Ajuste la taille pour le titre */
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); /* Ombre portée pour le texte */
+    text-align: center;
 }
 
 .content {
     padding: 20px;
     text-align: center;
-}
-
-.content h1 {
-    margin-bottom: 20px;
 }
 
 .content p {

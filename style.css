@@ -24,7 +24,7 @@ html::before {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Dancing script', cursive;
     background: transparent; /* IMPORTANT : pour ne pas cacher la texture */
 
 }

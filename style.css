@@ -36,6 +36,7 @@ body {
 }
 
 .content h1 {
+    position: relative;
     margin-top: -20px;
     margin-bottom: 300px;
     margin-left: 50px;
@@ -44,6 +45,22 @@ body {
     font-size: 5rem;
     transform: translateY(-20px);
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.content h1::before,
+.content h1::after {
+    content: "❄";
+    font-size: 2rem;
+    position: absolute;
+    top: 0;
+}
+
+.content h1::before {
+    left: -40px;
+}
+
+.content h1::after {
+    right: -40px;
 }
 
 .content p {

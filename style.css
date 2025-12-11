@@ -12,37 +12,30 @@ body {
 }
 
 .image-container {
-    width: 100%;
-    height: 50vh; /* Ajuste la hauteur pour mieux contrôler */
-    overflow: hidden;
     position: relative;
+    width: 100%;
+    height: 50vh; /* Cela permet de faire en sorte que l'image prenne la moitié de l'écran */
+    overflow: hidden; /* Pour cacher la partie de l'image en dessous du milieu */
 }
 
 .image {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Pour que l'image garde ses proportions sans déformation */
+    object-fit: cover; /* Pour couvrir toute la zone sans distorsion */
+    position: absolute;
+    top: -25%; /* Décale l'image vers le haut pour couper la partie du bas */
 }
-
-h1 {
-    font-family: 'Dancing Script', cursive;
-    font-size: 3rem;
-    color: red; /* Change cette couleur comme tu veux */
-    text-align: center;
-    margin-top: 200px; /* Marge au-dessus pour le séparer de l'image */
-    z-index: 10;
-    text-shadow: 2px 2px 4px black; /* Lisibilité */
-}
-
-
 
 .content {
     padding: 20px;
     text-align: center;
 }
 
+.content h1 {
+    margin-top: 20px;
+}
+
 .content p {
     font-size: 1.2em;
     line-height: 1.5;
 }
-

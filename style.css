@@ -33,7 +33,7 @@ body {
 
 .content h1 {
     margin-bottom: 20px;
-    margin-top: 5px;
+    margin-top: -20px;
     font-family: 'Dancing Script', cursive; /* 👉 Police appliquée au titre */
 }
 

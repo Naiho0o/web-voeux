@@ -46,23 +46,20 @@ body {
     background-image: url("so-white.png");
     background-repeat: repeat;
     background-size: auto;
-    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 5rem;
     text-align: center;
     border-radius: 4px;
     width: 100%;
-    max-width: 600px;
+    max-width: 1200px;
     margin: 5lvh auto;
 }
 
 .content h1 {
-    position: relative;
-    margin-top: -20px;
-    margin-bottom: 200px;
-    margin-left: 50px;
-    margin-right: 50px;
     font-family: 'Dancing Script', cursive; 
     font-size: 5rem;
-    transform: translateY(-20px);
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
 }
 
@@ -72,14 +69,6 @@ body {
     font-size: 2rem;
     position: absolute;
     top: 0;
-}
-
-.content h1::before {
-    left: -40px;
-}
-
-.content h1::after {
-    right: -40px;
 }
 
 .content p {

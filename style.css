@@ -7,8 +7,17 @@
     box-sizing: border-box;
 }
 
+html {
+    background-image: url("assets/texture.png");
+    background-repeat: repeat;      /* Ou "no-repeat" selon la texture */
+    background-size: auto;          /* Ou "cover" si tu veux l’étirer */
+    background-attachment: fixed;   /* Optionnel : effet fixe quand on scroll */
+}
+
 body {
     font-family: Arial, sans-serif;
+    background: transparent; /* IMPORTANT : pour ne pas cacher la texture */
+
 }
 
 .image-container {

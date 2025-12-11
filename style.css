@@ -15,10 +15,11 @@ html::before {
     content: "";
     position: fixed;
     inset: 0;
-    background-image: url("so-white.png");
+    background-image: url("assets/texture.png");
     background-repeat: repeat;
     background-size: auto;
-    opacity: 1.6; /* Mets 0.8, 1, 1.2, etc (oui >1 fonctionne si tu combines avec mix-blend-mode) */
+    opacity: 0.9;
+    mix-blend-mode: multiply; /* rend le papier plus prononcé */
     z-index: -1;
 }
 

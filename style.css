@@ -8,7 +8,7 @@
 }
 
 html {
-    background-image: url("assets/texture.png");
+    background-image: url("so-white.png");
     background-repeat: repeat;      /* Ou "no-repeat" selon la texture */
     background-size: auto;          /* Ou "cover" si tu veux l’étirer */
     background-attachment: fixed;   /* Optionnel : effet fixe quand on scroll */

@@ -27,7 +27,7 @@ body {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    font-family: 'Great Vibes', cursive; /* Police festive */
+    font-family: 'dancing script', cursive; /* Police festive */
     color: white;
     text-align: center;
 }

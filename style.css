@@ -29,7 +29,7 @@ h1 {
     font-size: 3rem;
     color: red; /* Change cette couleur comme tu veux */
     text-align: center;
-    margin-top: 20px; /* Marge au-dessus pour le séparer de l'image */
+    margin-top: 200px; /* Marge au-dessus pour le séparer de l'image */
     z-index: 10;
     text-shadow: 2px 2px 4px black; /* Lisibilité */
 }

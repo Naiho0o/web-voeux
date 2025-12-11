@@ -23,15 +23,12 @@ body {
     top: -25%;
 }
 
-.title {
+.h1 {
     position: absolute;
-    top: 30%; /* Ajuster selon le placement souhaité du titre */
     left: 50%;
     transform: translateX(-50%);
     font-family: 'Great Vibes', cursive; /* Police festive */
-    font-size: 4em; /* Ajuste la taille pour le titre */
     color: white;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); /* Ombre portée pour le texte */
     text-align: center;
 }
 

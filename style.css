@@ -32,7 +32,8 @@ body {
 }
 
 .content h1 {
-    margin-bottom: 2000px;
+    margin-bottom: 20px;
+    margin-top: 5px;
 }
 
 .content p {

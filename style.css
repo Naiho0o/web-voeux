@@ -68,7 +68,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5vh;
-    min-height: 150vh;
+    min-height: 130vh;
 }
 
 .content h1 {
@@ -87,7 +87,7 @@ body {
 
 .stamp {
     position: absolute;
-    bottom: -3rem;
+    bottom: 6rem;
     right: 3rem;
 
     width: 320px; /* ajuste la taille */

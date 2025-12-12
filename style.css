@@ -52,16 +52,19 @@ body {
     background-image: url("so-white.png");
     background-repeat: no-repeat;
     background-size: cover;
+
     display: flex;
     flex-direction: column;
-    min-height: 100vh; 
     gap: 2rem;
+
+    min-height: 100vh;
     padding: 5rem;
     text-align: center;
-    border-radius: 4px;
+
     width: 100%;
     max-width: 1200px;
-    margin-top: 5lvh auto;
+
+    margin: 5vh auto;
 }
 
 .content h1 {

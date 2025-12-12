@@ -87,7 +87,7 @@ body {
 
 .stamp {
     position: absolute;
-    bottom: 3rem;
+    bottom: -3rem;
     right: 3rem;
 
     width: 320px; /* ajuste la taille */

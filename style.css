@@ -74,15 +74,6 @@ body {
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
 }
 
-.content h1::before,
-.content h1::after {
-    content: "❄";
-    font-size: 2rem;
-    position: absolute;
-    top: 0;
-    min-height: 100vh;
-}
-
 .content p {
     font-size: 1.8em;
     line-height: 1.5;

@@ -53,14 +53,14 @@ body {
     background-size: cover;
     display: flex;
     flex-direction: column;
-    min-height: calc(100vh + 1'lbh); 
+    min-height: 100vh; 
     gap: 2rem;
     padding: 5rem;
     text-align: center;
     border-radius: 4px;
     width: 100%;
     max-width: 1200px;
-    margin: 5lvh auto;
+    margin: 2lvh auto;
 }
 
 .content h1 {

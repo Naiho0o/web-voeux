@@ -107,3 +107,11 @@ body {
     opacity: 0.85;
 }
 
+.formality {
+    font-size: 1.6em;
+    margin-top: 6rem;      /* espace depuis le titre */
+    margin-left: 50px;    /* alignement avec le paragraphe */
+    text-align: left;
+    font-family: 'dancing script', cursive;   /* effet lettre */
+}
+

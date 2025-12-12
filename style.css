@@ -98,8 +98,8 @@ body {
 
 .qrcode {
     position: absolute;
-    bottom: 3rem;
-    left: 3rem;
+    bottom: 3.5rem;
+    left: 4rem;
 
     width: 170px; /* ajuste si besoin */
     height: auto;

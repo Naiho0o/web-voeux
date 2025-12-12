@@ -56,6 +56,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    position: relative;
 
     padding: 5rem;
     text-align: center;
@@ -84,4 +85,14 @@ body {
     margin-top: 300px;
 }
 
+.stamp {
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
+
+    width: 120px; /* ajuste la taille */
+    height: auto;
+
+    opacity: 0.9; /* léger effet papier */
+}
 

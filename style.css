@@ -67,6 +67,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5vh;
+    min-height: 120vh;
 }
 
 .content h1 {

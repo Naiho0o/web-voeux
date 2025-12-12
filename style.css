@@ -60,7 +60,7 @@ body {
     border-radius: 4px;
     width: 100%;
     max-width: 1200px;
-    margin-top: 5vhl;
+    margin-top: 5vhl auto;
 }
 
 .content h1 {

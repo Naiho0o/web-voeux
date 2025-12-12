@@ -113,6 +113,6 @@ body {
     margin-left: 50px;    /* alignement avec le paragraphe */
     text-align: left;
     font-family: 'dancing script', cursive;   /* effet lettre */
-    line-height: 1px;
+    line-height: 5px;
 }
 

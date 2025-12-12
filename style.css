@@ -96,3 +96,14 @@ body {
     opacity: 0.9; /* léger effet papier */
 }
 
+.qrcode {
+    position: absolute;
+    bottom: -3rem;
+    left: 3rem;
+
+    width: 320px; /* ajuste si besoin */
+    height: auto;
+
+    opacity: 0.95;
+}
+

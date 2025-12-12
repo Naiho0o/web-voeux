@@ -29,6 +29,7 @@ body {
     background: transparent; /* pour ne pas cacher la texture */
     display: flex;
     justify-content: center;
+    align-items: flex-start;
 }
 
 .image-container {

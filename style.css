@@ -68,7 +68,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5vh;
-    min-height: 180vh;
+    min-height: 125vh;
 }
 
 .content h1 {
@@ -114,4 +114,65 @@ body {
     text-align: left;
     font-family: 'dancing script', cursive;   /* effet lettre */
     line-height: 15px;
+}
+
+/* ========================= */
+/*        VERSION MOBILE     */
+/* ========================= */
+@media (max-width: 768px) {
+
+    body {
+        align-items: flex-start;
+    }
+
+    .image-container {
+        height: 60svh; /* image moins haute sur mobile */
+    }
+
+    .content {
+        padding: 2rem 1.2rem;
+        margin-top: 45vh; /* image plus visible */
+        min-height: auto;
+
+        gap: 1.5rem;
+        background-size: cover;
+    }
+
+    .content h1 {
+        font-size: 3rem;
+        line-height: 1.2;
+    }
+
+    .content p {
+        font-size: 1.2em;
+        line-height: 1.6;
+
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .formality {
+        font-size: 1.2em;
+        margin-top: 6rem;
+        margin-left: 0;
+        line-height: 1.2;
+        text-align: center;
+    }
+
+    /* QR code */
+    .qrcode {
+        position: static;
+        margin: 3rem auto 0 auto;
+        display: block;
+        width: 120px;
+    }
+
+    /* Tampon */
+    .stamp {
+        position: static;
+        margin: 2rem auto 0 auto;
+        display: block;
+        width: 220px;
+    }
 }

@@ -59,6 +59,7 @@ body {
     position: relative;
 
     padding: 5rem;
+    padding-right: 26rem; /* ← espace réservé au timbre */
     text-align: center;
 
     width: 100%;
@@ -79,6 +80,7 @@ body {
 
 .content p {
     font-size: 1.8em;
+    text-align: left;
     line-height: 1.5;
     margin-left: 50px;
     margin-right: 50px;
@@ -114,6 +116,19 @@ body {
     text-align: left;
     font-family: 'dancing script', cursive;   /* effet lettre */
     line-height: 15px;
+}
+
+@media (max-width: 1100px) {
+    .content {
+        padding-right: 5rem; /* on enlève la réserve */
+    }
+
+    .stamp {
+        position: static;
+        margin: 3rem auto 0 auto;
+        display: block;
+        width: 260px;
+    }
 }
 
 /* ========================= */

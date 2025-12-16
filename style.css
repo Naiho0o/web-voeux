@@ -84,6 +84,7 @@ body {
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 2px;
+    text-align: center;
 }
 
 .stamp {
@@ -91,10 +92,10 @@ body {
     bottom: -5rem;
     right: 3rem;
 
-    width: 320px; /* ajuste la taille */
+    width: 320px;
     height: auto;
 
-    opacity: 0.9; /* léger effet papier */
+    opacity: 0.9;
 }
 
 .qrcode {
@@ -118,10 +119,6 @@ body {
 }
 
 @media (max-width: 1100px) {
-    .content {
-        padding-right: 5rem; /* on enlève la réserve */
-    }
-
     .stamp {
         position: static;
         margin: 3rem auto 0 auto;
@@ -129,6 +126,7 @@ body {
         width: 260px;
     }
 }
+
 
 /* ========================= */
 /*        VERSION MOBILE     */

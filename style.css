@@ -130,13 +130,17 @@ body {
     }
 
     .content {
-        padding: 2rem 1.2rem;
-        margin-top: 45vh; /* image plus visible */
-        min-height: auto;
+    position: relative;
+    z-index: 1;
 
-        gap: 1.5rem;
-        background-size: cover;
-    }
+    background-image: url("so-white.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* IMPORTANT */
+    background-color: white; /* masque le tampon */
+}
+
 
     .content h1 {
         font-size: 3rem;
@@ -170,9 +174,14 @@ body {
 
     /* Tampon */
     .stamp {
-        position: static;
-        margin: 2rem auto 0 auto;
-        display: block;
-        width: 220px;
-    }
+    position: absolute;
+    bottom: -5rem;
+    right: 3rem;
+
+    width: 320px;
+    opacity: 0.9;
+
+    z-index: 0; /* derrière le texte */
+}
+
 }

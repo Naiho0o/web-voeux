@@ -59,7 +59,6 @@ body {
     position: relative;
 
     padding: 5rem;
-    padding-right: 26rem; /* ← espace réservé au timbre */
     text-align: center;
 
     width: 100%;
@@ -69,31 +68,33 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5vh;
-    min-height: 125vh;
+    min-height: 180vh;
 }
 
 .content h1 {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    font-family: 'Dancing Script', cursive; 
+    font-size: 5rem;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 .content p {
     font-size: 1.8em;
     line-height: 1.5;
-    margin: 0 auto;
-    max-width: 900px; /* largeur de lecture */
-    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 2px;
 }
 
 .stamp {
-    display: block;
-    margin: 4rem auto 0 auto; /* centre et espace */
-    width: 320px;
-    height: auto;
-    opacity: 0.9;
-}
+    position: absolute;
+    bottom: -5rem;
+    right: 3rem;
 
+    width: 320px; /* ajuste la taille */
+    height: auto;
+
+    opacity: 0.9; /* léger effet papier */
+}
 
 .qrcode {
     position: absolute;
@@ -113,75 +114,4 @@ body {
     text-align: left;
     font-family: 'dancing script', cursive;   /* effet lettre */
     line-height: 15px;
-}
-
-@media (max-width: 1100px) {
-    .stamp {
-        position: static;
-        margin: 3rem auto 0 auto;
-        display: block;
-        width: 260px;
-    }
-}
-
-
-/* ========================= */
-/*        VERSION MOBILE     */
-/* ========================= */
-@media (max-width: 768px) {
-
-    body {
-        align-items: flex-start;
-    }
-
-    .image-container {
-        height: 60svh; /* image moins haute sur mobile */
-    }
-
-    .content {
-        padding: 2rem 1.2rem;
-        margin-top: 45vh; /* image plus visible */
-        min-height: auto;
-
-        gap: 1.5rem;
-        background-size: cover;
-    }
-
-    .content h1 {
-        font-size: 3rem;
-        line-height: 1.2;
-    }
-
-    .content p {
-        font-size: 1.2em;
-        line-height: 1.6;
-
-        margin-left: 0;
-        margin-right: 0;
-        text-align: center;
-    }
-
-    .formality {
-        font-size: 1.2em;
-        margin-top: 6rem;
-        margin-left: 0;
-        line-height: 1.2;
-        text-align: center;
-    }
-
-    /* QR code */
-    .qrcode {
-        position: static;
-        margin: 3rem auto 0 auto;
-        display: block;
-        width: 120px;
-    }
-
-    /* Tampon */
-    .stamp {
-        position: static;
-        margin: 2rem auto 0 auto;
-        display: block;
-        width: 220px;
-    }
 }
